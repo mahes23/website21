@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+.container{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    
+}
+.nav{
+    background-color: rgb(32, 32, 90);
+    width: 100%;
+    height: 70px;
+    color: white;
+    display: flex;
+   
+    
+   
+   
+}
+.nav p{
+   
+    width: 350px;
+    padding: 20px;
+    text-transform: uppercase;
+    
+}
+.nav li{
+    list-style: none;
+    
+}
+.nav li a{
+
+   padding-top: 20px;
+   text-decoration: none;
+   display: flex;
+   justify-content: space-between;
+   color: white;
+   padding: 20px;
+   text-transform: capitalize;
+  
+}
+
+h1{
+    text-align: center;
+    margin-top: 5%;
+    text-transform:uppercase;
+    font-weight: 25px;
+}
+.abo{
+     display: flex;
+     width: 1000px;
+     margin-left: 20%;
+     margin-top: 5%;
+    
+}
+.text{
+    border: 2px solid black;
+    width: 700px;
+    height: 500px;
+
+}
+p{
+    padding-top: 50px;
+    margin-left: 20px;
+    text-transform: capitalize;
+    line-height: 32px;
+}
+.photo{
+    border: 2px solid black;
+    width: 700px;
+}
+ img{
+    width: 500px;
+   padding-top: 50px;
+   padding-left: 5px;
+   padding-right: 5px;
+
+}
+.pra{
+    margin-top: 3%;
+    margin-left: 7%;
+}
+h1{
+    text-transform: capitalize;
+    font-weight: 32px;
+}
+ .pra h4{
+    text-transform: capitalize;
+    margin-left: 46%;
+
+    
+ }
+ .pra h3{
+    margin-left: 40%;
+
+ }
+.four{
+    display: flex;
+    width: 500px;
+    margin-left: 20%;
+    margin-right: 20%;
+   
+}
+.person1{
+    border: 2px solid black;
+
+}
+.person1 h1{
+    text-align: center;
+}
+.person1 h3{
+    text-align: center;
+}
+.person1 p{
+     margin-block-start: 2px;
+}
+.person2{
+    border: 2px solid black;
+}
+.person2 h1{
+    text-align: center;
+}
+.person2 h3{
+    text-align: center;
+}
+.person2 p{
+     margin-block-start: 2px;
+}
+
+.two{
+    display: flex;
+    width: 500px;
+    margin-left: 20%;
+    margin-right: 20%
+}
+.person3{
+    border: 2px solid black;
+
+}
+.person3 h1{
+    text-align: center;
+}
+.person3 h3{
+    text-align: center;
+}
+.person3 p{
+     margin-block-start: 2px;
+}
+
+.person4{
+    border: 2px solid black;
+
+}
+.person4 h1{
+    text-align: center;
+}
+.person4 h3{
+    text-align: center;
+}
+.person4 p{
+     margin-block-start: 2px;
+}
+.con{
+    background-color: rgb(48, 41, 90);
+    height: 890px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.con h1{
+    margin-left: 5%;
+   margin-top: 5%;
+   color: white;
+   text-transform: uppercase;
+
+
+}
+.contcts{
+    display: flex;
+    margin-top: 10%;
+    justify-content:space-evenly;
+    align-items: center;
+    
+    
+}
+.right{
+    position: relative;
+    width: 500px;
+    height: 300px;
+    margin-left: 25%;
+    color: white;
+    /*background-color: cornflowerblue;*/
+}
+.right label{
+    text-transform: uppercase;
+    margin-top: 20px;
+    line-height: 50px;
+    margin-left: 40px;
+    
+
+}
+.right input{
+    outline-style: none;
+    margin-left: 20px;
+    line-height: 10px;
+    border: none;
+    width: 270px;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+    
+    
+}
+.left{
+    position: relative;
+    margin-right: 15%;
+    width: 500px;
+    height: 300px;
+    color:white;
+    /*background-color: cornflowerblue;*/
+}
+.left label{
+    text-transform: uppercase;
+    margin-top: 20px;
+    line-height: 50px;
+    margin-left: 20px;
+
+}
+.left input{
+    outline-style: none;
+    margin-left: 30px;
+    line-height: 10px;
+    border: none;
+    width: 270px;
+    background-color: transparent;
+    outline-color: black;
+    border-bottom: 2px solid black;
+    
+    
+}
+.left button{
+    margin-left: 40px;
+    margin-top: 10%;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   text-transform: capitalize;
+}
+.left button:hover{
+    color:white;
+    background-color: black;
+}
+.map{
+    position: absolute;
+    margin-top: 45%;
+}
+.footer{
+   background-color: rgb(40, 40, 75);
+   position: absolute;
+   margin-top: 93%;
+   width: 100%;
+   
+}
+.row{
+    
+display: flex;
+width: 1493px;
+height: 300px;
+}
+.footer-col{
+    margin-top: 3%;
+    margin-left:15%;
+}
+.footer-col h4{
+    color: white;
+    padding-right: 12px;
+    text-transform: uppercase;
+    line-height: 20px;
+    
+}
+.footer-col  ul {
+    list-style: none;
+    
+}
+.footer-col  li {
+   
+   padding-top: 10px;
+  
+   
+}
+.footer-col  li a{
+    margin-top: 10%;
+    text-decoration: none;
+    color: white;
+    margin-left: 1%;
+    text-align:center;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.footer-col  li a:hover{
+    color: aqua;
+}
+.social-item  a{
+   background-color: aliceblue;
+
+}
+.social-item  a:hover{
+    color:white;
+    background-color: black;
+}
+
+.person3 p{
+    margin-top: 10%;
+    text-align: center;
+    line-height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.person4{
+    border: 3px solid gray;
+
+}
+.person4 img{
+    width: 400px;
+    margin-top: 5%;
+    margin-left: 10%;
+    
+}
+.person4 h1{
+    text-align: center;
+
+}
+.person4 p{
+    margin-top: 10%;
+    text-align: center;
+    line-height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+

@@ -1,0 +1,393 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.nav{
+    background-color: rgb(32, 32, 90);
+    width: 100%;
+    height: 70px;
+    color: white;
+    display: flex;
+   
+    
+   
+   
+}
+.nav p{
+    margin-top: 2%;
+    text-align: center;
+    width: 350px;
+    /*background-color: aqua;*/
+    height: 20px;
+    color: white;
+    text-transform: uppercase;
+    
+}
+.nav li{
+    list-style: none;
+    
+}
+.nav li a{
+
+   padding-top: 20px;
+   text-decoration: none;
+   display: flex;
+   justify-content: space-between;
+   color: white;
+   padding: 20px;
+   text-transform: capitalize;
+  
+}
+.post{
+    width:100%;
+    position: absolute;
+    
+}
+.post img{
+ width: 1499px;
+ height: 700px;
+ position:absolute;
+ 
+ 
+
+}
+.post .postin{
+   position: absolute;
+    margin-left: 30%;
+   width: 700px;
+   height: 300px;
+   text-align: center;
+   background-color:white;
+    margin-top: 35%;
+}
+.postin h1{
+    padding-top: 20px;
+
+}
+.postin p{
+    padding-top: 30px;
+}
+.postin button{
+    margin-top: 30px;
+    padding: 20px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.postin button:hover{
+    background-color: rgb(18, 18, 19);
+    color: white;
+}
+.col{
+    position: absolute;
+    margin-top: 60%;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+.n1{
+    border: 2px solid black;
+    width: 400px;
+    height: 500px;
+}
+.n1 h1{
+    margin-top: 10%;
+    margin-left: 30%;
+    text-transform: uppercase;
+}
+.n1 p{
+    margin-top: 10%;
+    line-height: 50px;
+    text-align: center;
+}
+.n1 button{
+    margin-top: 5%;
+    margin-left: 40%;
+    padding: 20px;
+    color: white;
+    background-color: black;
+    text-transform: capitalize;
+}
+.n1 button:hover{
+    background-color:white;
+    color: black;
+}
+.about{
+    position: absolute;
+    margin-top: 100%;
+}
+
+
+.about h1{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 40%;
+    text-transform: uppercase;
+}
+.about img{
+    margin-top: 3%;
+    width: 1498px;
+   
+}
+ .abo{
+    position: absolute;
+    margin-top: 110%;
+}
+.abo p{
+    margin-top: 10%;
+    text-align: center;
+    line-height: 60px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-transform: capitalize;
+}
+.abo button{
+    margin-left: 50%;
+    margin-top: 5%;
+    padding: 20px;
+    text-transform: capitalize;
+    color: white;
+    background-color: black;
+}
+.abo button:hover{
+    color: black;
+    background-color: white;
+}
+.our{
+    position: absolute;
+    margin-top: 178%;
+    
+    
+}
+.our h1{
+    margin-left: 40%;
+    text-transform: uppercase;
+}
+.icons{
+    margin-top: 10%;
+    display: flex;
+    margin-left: 10%;
+   
+}
+.icon4{
+    border: 2px solid rgb(136, 132, 132);
+    width: 350px;
+    height: 250px;
+    text-align: center;
+    
+}
+.se{
+    margin-top: 210%;
+    margin-left: 40%;
+    text-transform: uppercase;
+    line-height: 25px;
+}
+.slider{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.slide{
+    position: relative;
+    width: 70%;
+    overflow: hidden;
+}
+.images{
+    display: flex;
+    width: 100%;
+}
+.images img{
+    height: 720px;
+    width: 100%;
+    transition: all 0.15s ease;
+}
+.images input{
+    display: none;
+
+}
+.dots{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.dots label{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: solid black;
+    transition: all 0.15s ease;
+    margin: 5px;
+}
+.dots label:hover{
+    background-color: blue;
+}
+
+#img1:checked~.m1{
+    margin-left: 0;
+}
+#img2:checked~.m2{
+    margin-left:-100%;
+}
+#img3:checked~.m3{
+    margin-left: -200%;
+}
+.con{
+    background-color: rgb(48, 41, 90);
+    height: 890px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.con h1{
+    margin-left: 45%;
+   margin-top: 5%;
+   color: white;
+   text-transform: uppercase;
+
+
+}
+.contcts{
+    display: flex;
+    margin-top: 10%;
+    justify-content:space-evenly;
+    align-items: center;
+    
+    
+}
+.right{
+    position: relative;
+    width: 500px;
+    height: 300px;
+    margin-left: 25%;
+    color: white;
+    /*background-color: cornflowerblue;*/
+}
+.right label{
+    text-transform: uppercase;
+    margin-top: 20px;
+    line-height: 50px;
+    margin-left: 40px;
+    
+
+}
+.right input{
+    outline-style: none;
+    margin-left: 20px;
+    line-height: 10px;
+    border: none;
+    width: 270px;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+    
+    
+}
+.left{
+    position: relative;
+    margin-right: 15%;
+    width: 500px;
+    height: 300px;
+    color:white;
+    /*background-color: cornflowerblue;*/
+}
+.left label{
+    text-transform: uppercase;
+    margin-top: 20px;
+    line-height: 50px;
+    margin-left: 20px;
+
+}
+.left input{
+    outline-style: none;
+    margin-left: 30px;
+    line-height: 10px;
+    border: none;
+    width: 270px;
+    background-color: transparent;
+    outline-color: black;
+    border-bottom: 2px solid black;
+    
+    
+}
+.left button{
+    margin-left: 40px;
+    margin-top: 10%;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   text-transform: capitalize;
+}
+.left button:hover{
+    color:white;
+    background-color: black;
+}
+.map{
+    position: absolute;
+    margin-top: 45%;
+}
+.footer{
+   background-color: rgb(40, 40, 75);
+   position: absolute;
+   margin-top: 93%;
+   width: 100%;
+   
+}
+.row{
+    
+display: flex;
+width: 1493px;
+height: 300px;
+}
+.footer-col{
+    margin-top: 3%;
+    margin-left:15%;
+}
+.footer-col h4{
+    color: white;
+    padding-right: 12px;
+    text-transform: uppercase;
+    line-height: 20px;
+    
+}
+.footer-col  ul {
+    list-style: none;
+    
+}
+.footer-col  li {
+   
+   padding-top: 10px;
+  
+   
+}
+.footer-col  li a{
+    margin-top: 10%;
+    text-decoration: none;
+    color: white;
+    margin-left: 1%;
+    text-align:center;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.footer-col  li a:hover{
+    color: aqua;
+}
+.social-item  a{
+   background-color: aliceblue;
+
+}
+.social-item  a:hover{
+    color:white;
+    background-color: black;
+}
